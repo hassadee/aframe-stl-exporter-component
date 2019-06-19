@@ -1,6 +1,6 @@
 # aframe-stl-exporter-component
 
-A STL Exporter component for [A-Frame](htts://aframe.io).
+A STL Exporter component for [A-Frame](https://aframe.io).
 
 ### API
 

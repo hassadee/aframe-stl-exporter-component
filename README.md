@@ -17,7 +17,7 @@ Install and use by directly including the [browser files](dist):
 <head>
   <title>My A-Frame Scene</title>
   <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
-  <script src="./aframe-stl-exporter-component.min.js"></script>
+  <script src="https://raw.githubusercontent.com/hassadee/aframe-stl-exporter-component/master/dist/aframe-stl-exporter-component.min.js"></script>
 </head>
 
 <body>

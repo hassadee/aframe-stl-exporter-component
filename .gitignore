@@ -1,4 +1,5 @@
 .DS_Store
+.code-workspace
 examples/build.js
 gh-pages
 node_modules/

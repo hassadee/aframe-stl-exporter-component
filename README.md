@@ -39,4 +39,4 @@ The function accepts severals different `input` values:
 * An array of entities
 * `NodeList` (eg: the result from a `querySelectorAll`)
 
-More information about the component and its options could be found on the [three.js GLTFExporter](https://threejs.org/docs/#examples/exporters/STLExporter)
+More information about the component and its options could be found on the [three.js STLExporter](https://threejs.org/examples/#misc_exporter_stl)

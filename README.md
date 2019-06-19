@@ -40,3 +40,18 @@ The function accepts severals different `input` values:
 * `NodeList` (eg: the result from a `querySelectorAll`)
 
 More information about the component and its options could be found on the [three.js STLExporter](https://threejs.org/examples/#misc_exporter_stl)
+
+#### npm
+
+Install via npm:
+
+```bash
+npm install aframe-stl-exporter-component
+```
+
+Then require and use.
+
+```js
+require('aframe');
+require('aframe-stl-exporter-component');
+```

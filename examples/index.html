@@ -46,8 +46,10 @@
 			<button id="export-scene-bin" class="button"><span>Export Scene Binary</span></button>
 			<button id="export-sphere" class="button"><span>Export Sphere</span></button>
 			<button id="export-group" class="button"><span>Export Group Objects</span></button>
+			<!--
 			<button id="export-two" class="button"><span>Export Sphere and Box (Array)</span></button>
 			<button id="export-selector" class="button"><span>Export boxes (Selector)</span></button>
+			-->
 		</div>
 		<a-scene stl-exporter>
 			<a-assets>
@@ -115,12 +117,14 @@
 			document.getElementById('export-group').addEventListener('click', function () {
 				exportSTL(document.getElementById('group_objects'), {binary: true});
 			});
+			/*
 			document.getElementById('export-two').addEventListener('click', function () {
 				exportSTL([document.getElementById('blueBox'), document.getElementById('yellowSphere')]);
 			});
 			document.getElementById('export-selector').addEventListener('click', function () {
 				exportSTL(document.querySelectorAll("[geometry='primitive: box']"));
 			});
+			*/
 		</script>
 	</body>
 </html>

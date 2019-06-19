@@ -36,8 +36,6 @@ sceneEl.systems['stl-exporter'].export(input, options);
 The function accepts severals different `input` values:
 * None (export the whole scene)
 * One entity
-* An array of entities
-* `NodeList` (eg: the result from a `querySelectorAll`)
 
 More information about the component and its options could be found on the [three.js STLExporter](https://threejs.org/examples/#misc_exporter_stl)
 

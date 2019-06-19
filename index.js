@@ -27,25 +27,34 @@ AFRAME.registerSystem('stl-exporter', {
 		var inputObject;
 		var link = document.createElement('a');
 
+		/* Buggy one */
+		/*
 		if (typeof input === 'undefined') {
-			// console.log("undefined");
+			console.log("undefined");
 
 			inputObject = this.sceneEl.object3D;
 		} else if (input instanceof Array) {
-			// console.log("Array");
+			console.log("Array");
 
 			inputObject = input.map(function (entity) {
 				return entity.object3D;
 			});
 		} else if (input instanceof NodeList) {
-			// console.log("NodeList");
+			console.log("NodeList");
 
 			inputObject = Array.prototype.slice.call(input).map(function (entity) {
 				return entity.object3D;
 			});
 		} else {
-			// console.log("input.object3D");
+			console.log("input.object3D");
 
+			inputObject = input.object3D;
+		}
+		*/
+
+		if (typeof input === 'undefined') {
+			inputObject = this.sceneEl.object3D;
+		} else {
 			inputObject = input.object3D;
 		}
 

@@ -1,5 +1,8 @@
 # aframe-stl-exporter-component
 
+[![Version](http://img.shields.io/npm/v/aframe-stl-exporter-component.svg?style=flat-square)](https://npmjs.org/package/aframe-stl-exporter-component)
+[![License](http://img.shields.io/npm/l/aframe-stl-exporter-component.svg?style=flat-square)](https://npmjs.org/package/aframe-stl-exporter-component)
+
 A STL Exporter component for [A-Frame](https://aframe.io).
 
 ### API

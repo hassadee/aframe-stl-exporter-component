@@ -7,6 +7,10 @@
     "example": "examples"
   },
   "scripts": {
+    "build": "npm run build:dev && npm run build:prod",
+    "build:prod": "webpack --config webpack.config.js",
+    "build:dev": "webpack --config webpack.unminified.config.js",
+    "dist": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,10 +34,9 @@
   },
   "homepage": "https://github.com/hassadee/aframe-stl-exporter-component#readme",
   "devDependencies": {
-    "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.5"
+    "webpack": "5.*",
+    "webpack-cli": "5.*"
   },
   "dependencies": {
-    "uglifyjs-webpack-plugin": "^2.1.3"
   }
 }

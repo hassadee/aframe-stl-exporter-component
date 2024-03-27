@@ -7,7 +7,7 @@ if (typeof AFRAME === 'undefined') {
 	throw new Error('Component attempted to register before AFRAME was available.');
 }
 
-require('./vendor/STLExporter');
+const STLExporter = require('./vendor/STLExporter').STLExporter;
 
 /**
 * STL Exporter component for A-Frame.
@@ -20,12 +20,10 @@ AFRAME.registerSystem('stl-exporter', {
 	multiple: false,
 
 	init: function () {
-		this.exporter = new THREE.STLExporter();
+		this.exporter = new STLExporter();
 	},
 
 	export: function (input, options) {
-		console.log("export");
-
 		var inputObject;
 		var link = document.createElement('a');
 
